@@ -29,7 +29,7 @@ import PyKDL
 import rospy
 from copy import deepcopy
 
-from utils.kdl_parser import kdl_tree_from_urdf_model
+from kdl_parser import kdl_tree_from_urdf_model
 from urdf_parser_py.urdf import URDF
 
 def kdl_to_mat(data):

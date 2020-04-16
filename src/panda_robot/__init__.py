@@ -15,5 +15,7 @@
 # limitations under the License.
 # **************************************************************************/
 
+from . import kdl_parser
 from .panda_kinematics import PandaKinematics
 from .panda_robot import PandaArm
+
